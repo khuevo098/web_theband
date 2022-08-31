@@ -1,0 +1,92 @@
+/* PC */
+@media(min-width:1024px){
+
+}
+
+/* TABLET */
+@media (min-width:740px) and (max-width:1023px){
+}
+
+
+/* MOBILE */
+@media(max-width:740px){
+    #header{
+        overflow: hidden;
+    }
+    #nav{
+        overflow: hidden;
+        width: 100%;
+        display: block;
+    }
+    #nav>li{
+        display:block;
+        width:100%
+    }
+    #nav li a {
+        border: none;
+        box-sizing: border-box;
+        
+        padding: 0px 24px;
+        width: 100%;
+        outline: none;
+        display: block;
+    }
+    #nav li:hover{
+        background-color:#ccc;
+        color:#000
+    }
+    #nav> li:hover> a {
+        color: black;
+        background-color: transparent;
+    }
+
+    #slider .text-heading,
+    #slider .text-description{
+        display: none;
+    }
+
+    .search-btn{
+        display:none;
+    }
+    #header .ti-menu:hover{
+        color:#000;
+        background-color: #ccc;
+    }
+    .mobile-menu-btn{
+        display: block;
+        color: white;
+        float: right;
+        top: 0;
+        position: absolute;
+        right: 0px;
+    }
+    #header i.menu-icon{
+    color:white;
+    font-size:15px;
+    line-height: 46px;
+    padding: 16px 24px;
+    }
+    #nav .nav-arrow-down {
+        font-size: 12px;
+    }
+    li#Home-for-mobile-responsive {
+        width: fit-content;
+    }
+    .mobi-res-mem{
+        width: 100%;
+        margin-top:30px;
+    }
+    .mobi-res-places{
+        width: 100%;
+    }
+    .content-section .mobi-res-contact{
+        width:100%;
+    }
+    .contact-input.name, 
+    .contact-input.email{
+        margin-bottom: 0px;
+    }
+    .contact-input.name{
+        margin-top:16px
+    }
+}
