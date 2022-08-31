@@ -11,7 +11,7 @@ html{
 
 @font-face {
     font-family: Lato;
-    src: url(/assets/font/Lato/Lato-Regular.ttf);
+    src: url(web_theband/assets/font/Lato/Lato-Regular.ttf);
 }
 
 
@@ -143,7 +143,7 @@ html{
     position: relative;
     margin-top:45px;
     padding-top: 50%;
-    background: url('./assets/img/slider/slider1.jpg') top center/cover no-repeat; 
+    background: url('web_theband/assets/img/slider/slider1.jpg') top center/cover no-repeat; 
 }
 
 
